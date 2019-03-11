@@ -126,7 +126,7 @@ header{
     h1 {
       font-size: 90px;
       color: #4d4d4d;
-
+      font-family: 'AsapMedium';
       span {
         display: block;
         font-size: 22px;
@@ -142,6 +142,7 @@ header{
       height: 48px;
       border: solid 1px black;
       border-radius: 0;
+      font-family: 'AsapMedium';
       &:hover{
         background-color: white;
         border: transparent;
@@ -178,6 +179,7 @@ header{
   h2{
     color: #4d4d4d;
     font-size: 22px;
+    font-family: 'AsapBold';
     &:after{
       content: "";
       display: block;
@@ -189,6 +191,7 @@ header{
   h3{
     color: #4d4d4d;
     font-size: 46px;
+    font-family: 'AsapBold';
   }
   p{
     font-size: 16px;
@@ -203,6 +206,7 @@ header{
     height: 50px;
     border: solid 1px black;
     border-radius: 0;
+    font-family: 'AsapMedium';
     &:hover{
       background-color: #e1e1e1;
       border: transparent;
@@ -221,6 +225,7 @@ header{
     font-size: 46px;
     text-transform: uppercase;
     padding-bottom: 40px;
+    font-family: 'AsapBold';
     &:before{
       content: "";
       display: block;
@@ -271,6 +276,7 @@ header{
       color: #4d4d4d;
       font-size: 24px;
       text-decoration: none;
+      font-family: 'AsapMedium';
       &:hover{
         text-shadow: 1px 1px 10px #0A0A0A;
         color: black;
@@ -287,6 +293,7 @@ header{
     font-size: 46px;
     text-transform: uppercase;
     padding-bottom: 40px;
+    font-family: 'AsapBold';
     &:before{
       content: "";
       display: block;
@@ -309,6 +316,7 @@ header{
     font-size: 46px;
     text-transform: uppercase;
     padding-bottom: 40px;
+    font-family: 'AsapBold';
     &:before{
       content: "";
       display: block;
@@ -367,6 +375,7 @@ header{
     border: solid 1px black;
     border-radius: 0;
     margin: auto;
+    font-family: 'AsapMedium';
     &:hover{
       background-color: white;
       border: transparent;
@@ -385,7 +394,7 @@ header{
     text-transform: uppercase;
     padding-bottom: 40px;
     text-align: center;
-
+    font-family: 'AsapBold';
     &:before {
       content: "";
       display: block;
@@ -412,19 +421,21 @@ header{
       font-size: 30px;
       color: #212121;
       text-transform: uppercase;
-
+      font-family: 'AsapMedium';
       span {
         display: block;
         padding-bottom: 16px;
         text-transform: uppercase;
         font-size: 12px;
         color: #212121;
+        font-family: 'AsapItalic';
       }
     }
 
     p {
       font-size: 16px;
       color: #212121;
+      font-family: 'AsapRegular';
     }
 
   }
@@ -453,11 +464,13 @@ header{
   h5{
     font-size: 30px;
     color: #212121;
+    font-family: 'AsapRegular';
     span{
       display: block;
       font-size: 22px;
       color: #212121;
       text-transform: uppercase;
+      font-family: 'AsapMedium';
     }
   }
   .block_2 {
@@ -513,7 +526,7 @@ footer {
     text-align: center;
     position: absolute;
     top: 10%;
-
+    font-family: 'AsapBold';
     &:before {
       content: "";
       display: block;
@@ -555,7 +568,7 @@ footer {
         width: 370px;
         height: 60px;
         border: none;
-
+        font-family: 'AsapRegular';
         &:last-of-type {
           margin-left: 25px;
           @include max-screen(770px) {
@@ -581,6 +594,7 @@ footer {
         height: 210px;
         margin: 30px 0;
         border: none;
+        font-family: 'AsapRegular';
         @include max-screen(770px) {
           width: 385px;
           height: 105px;
@@ -592,6 +606,7 @@ footer {
       }
 
       button {
+        font-family: 'AsapMedium';
         span {
           float: left;
           text-align: center;
